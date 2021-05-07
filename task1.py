@@ -70,7 +70,7 @@ def TemizVeri():
     a = 0
     
     while a < len(metin):
-        if metin[a].isdigit():
+        if metin[a].isalpha():
             sayi = sayi + metin[a]
         a += 1
 
@@ -82,7 +82,7 @@ def TemizVeri():
     a = 0
     
     while a < len(metin):
-        if metin[a].isdigit():
+        if metin[a].isalpha():
             sayi = sayi + metin[a]
         a += 1
 
@@ -93,7 +93,7 @@ def TemizVeri():
     a = 0
     
     while a < len(metin):
-        if metin[a].isdigit():
+        if metin[a].isalpha():
             sayi = sayi + metin[a]
         a += 1
  
